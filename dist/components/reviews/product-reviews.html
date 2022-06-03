@@ -1,0 +1,111 @@
+<div class="product-reviews">
+    <div class="product-reviews__header row">
+        <div class="col-md-3 product-reviews__stars">
+            <div class="reviews__stars">
+                <img src="/images/star_full.svg">
+                <img src="/images/star_full.svg">
+                <img src="/images/star_full.svg">
+                <img src="/images/star_full.svg">
+                <img src="/images/star_full.svg">
+            </div>
+            <p>816 Reviews</p>
+        </div>
+        <div class="col-md-9">
+            <div class="product-reviews__progress">
+                <div class="progress__item">
+                    5 star
+                    <span class="progress__wrapper" data-max="100" data-value="70">
+                        <span class="progress__value"></span>
+                    </span>
+                    550
+                </div>
+                <div class="progress__item">
+                    4 star
+                    <span class="progress__wrapper" data-max="100" data-value="40">
+                        <span class="progress__value"></span>
+                    </span>
+                    256
+                </div>
+                <div class="progress__item">
+                    3 star
+                    <span class="progress__wrapper" data-max="100" data-value="4">
+                        <span class="progress__value"></span>
+                    </span>
+                    10
+                </div>
+                <div class="progress__item">
+                    2 star
+                    <span class="progress__wrapper" data-max="100" data-value="0">
+                        <span class="progress__value"></span>
+                    </span>
+                    0
+                </div>
+                <div class="progress__item">
+                    1 star
+                    <span class="progress__wrapper" data-max="100" data-value="0">
+                        <span class="progress__value"></span>
+                    </span>
+                    0
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="product-reviews__tabs">
+        <ul>
+            <li>
+                <a
+                    class="product-reviews__tabs_active"
+                    href="#product">
+                        Product Reviews <span>(816)</span>
+                </a>
+            </li>
+            <li>
+                <a
+                    href="#company">
+                        Company Reviews <span>(91)</span>
+                </a>
+            </li>
+        </ul>
+
+        <div class="product-reviews__sort">
+            <label for="sort-reviews">Sort By:</label>
+            <select id="sort-reviews">
+                <option value="date desc" selected>Most Recent</option>
+                <option value="rating desc">Highest Rating</option>
+                <option value="rating asc">Lowest Rating</option>
+                <option value="upvotes desc">Most Votes</option>
+                <option value="hasPhoto desc">Has Photo</option>
+            </select>
+        </div>
+    </div>
+    <div class="product-reviews__content">
+        <div id="product" class="product-reviews__items product-reviews__items_active">
+            @@include('./product-reviews-item.html')
+            @@include('./product-reviews-item.html')
+            @@include('./product-reviews-item-photo.html')
+            @@include('./product-reviews-item.html')
+        </div>
+        <div id="company" class="product-reviews__items">
+            @@include('./product-reviews-item-photo.html')
+            @@include('./product-reviews-item.html')
+            @@include('./product-reviews-item.html')
+            @@include('./product-reviews-item-photo.html')
+            @@include('./product-reviews-item.html')
+        </div>
+    </div>
+
+    <div class="product-reviews__nav">
+        <a href="#" class="btn btn_small btn_green-to-white">
+            prev
+        </a>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#" class="active">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#" class="btn btn_small btn_green-to-white">
+            next
+        </a>
+    </div>
+</div>

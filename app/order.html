@@ -1,0 +1,973 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+            crossorigin="anonymous"
+    />
+
+    <link
+            href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+            rel="stylesheet"
+            type="text/css"
+    />
+    <link
+            href="/styles/line-awesome.min.css"
+            rel="stylesheet"
+    />
+    <link
+            href="/styles/slick.css"
+            rel="stylesheet"
+    />
+    <link
+            href="/styles/app.min.css"
+            rel="stylesheet"
+    />
+</head>
+<body>
+
+<div class="head-phone">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                We are currently experiencing high call volumes which may result in long wait times. Please place your
+                order online.
+            </div>
+            <div class="col-md-6 head-phone__item">
+                Phone: <a href="tel:+1 855-476-6455">+1 855-476-6455</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<header class="head">
+    <div class="head-logo">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 head-logo__buttons">
+                    <div class="head-logo__mobile-btn">
+                        <a href="#">
+                            <i class="las la-bars"></i>
+                        </a>
+                    </div>
+
+                    <div class="head-logo__profile">
+                        <a href="#">
+                            <i class="las la-user"></i>
+                        </a>
+                        <div class="tooltips tooltips_top-left">
+                            <div class="tooltips__body">
+                                <a href="#" class="tooltips__item d-flex-center">
+                                    <i class="las la-sign-in-alt"></i>
+                                    Sing In
+                                </a>
+                                <a href="#" class="tooltips__item d-flex-center">
+                                    <i class="las la-user-plus"></i>
+                                    Register
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex-center head-logo__search">
+                        <a id="search__btn" href="#" class="d-flex-center">
+                            <i class="las la-search"></i>
+                            search
+                        </a>
+
+                        <input
+                                id="search__input"
+                                class="input_material"
+                                type="text"
+                                placeholder="search the store"
+                        >
+                    </div>
+                </div>
+
+                <div class="col-4 head-logo__img">
+                    <img src="/images/logo.png" alt="woodlandmills">
+                </div>
+
+                <div class="col-4 head-logo__cart">
+                    <a href="#" class="d-flex-center open-tooltip" data-tooltip="#cart">
+                        <i class="las la-shopping-cart"></i>
+                        <span class="head-cart__name">cart</span>
+                        <span class="head-cart__counter">(0)</span>
+                    </a>
+                    <div class="tooltips tooltips_top-right" id="cart">
+                        <div class="tooltips__body">
+                            <a href="#" class="head-cart__item">
+                                <img src="/images/cart/cart_preview.jpg" alt="WC88 8 PTO Wood Chipper">
+                                WC88 8" PTO Wood Chipper
+                            </a>
+                        </div>
+
+                        <div class="tooltips__footer text-center">
+                            <a href="" class="btn btn_small">
+                                View cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav>
+        <ul class="head-menu">
+            <li>
+                <a href="#">
+                    Products <i class="las la-caret-down"></i>
+                </a>
+                <div class="head-menu__submenu">
+                    <ul>
+                        <li class="head-menu__category">
+                            <a href="#">Portable sawmills</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm122 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm125 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm126 portable sawmill</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="head-menu__category">
+                            <a href="#">Portable sawmills</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm122 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm125 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm126 portable sawmill</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="head-menu__category">
+                            <a href="#">Portable sawmills</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm122 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm125 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm126 portable sawmill</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="head-menu__category">
+                            <a href="#">Portable sawmills</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm122 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm125 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm126 portable sawmill</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">
+                    Accessories <i class="las la-caret-down"></i>
+                </a>
+                <div class="head-menu__submenu">
+                    <ul>
+                        <li class="head-menu__category">
+                            <a href="#">Portable Sawmills 234</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm122 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm125 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm126 portable sawmill</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="head-menu__category">
+                            <a href="#">Sawmill Trailers</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm122 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm125 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm126 portable sawmill</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="head-menu__category">
+                            <a href="#">Portable sawmills</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm122 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm125 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm126 portable sawmill</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="head-menu__category">
+                            <a href="#">Portable sawmills</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm122 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm125 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm126 portable sawmill</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">
+                    Blades & Blade Maintenance <i class="las la-caret-down"></i>
+                </a>
+                <div class="head-menu__submenu">
+                    <ul>
+                        <li class="head-menu__category">
+                            <a href="#">Portable sawmills</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm122 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm125 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm126 portable sawmill</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="head-menu__category">
+                            <a href="#">Portable sawmills</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm122 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm125 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm126 portable sawmill</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="head-menu__category">
+                            <a href="#">Portable sawmills</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm122 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm125 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm126 portable sawmill</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="head-menu__category">
+                            <a href="#">Portable sawmills</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm122 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm125 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm126 portable sawmill</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">
+                    Gear & Apparel
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Contact Us
+                </a>
+            </li>
+        </ul>
+        <div class="head-menu__mobile">
+            <div class="container">
+                <ul>
+                    <li>
+                        <input
+                                type="text"
+                                class="input_normal"
+                                placeholder="search the store"
+                        >
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#">
+                            Products <i class="las la-caret-down"></i>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Portable sawmills <i class="las la-caret-down"></i>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a href="#">Hm122 portable sawmill</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hm125 portable sawmill</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hm126 portable sawmill</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Portable sawmills <i class="las la-caret-down"></i>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a href="#">Hm122 portable sawmill</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hm125 portable sawmill</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hm126 portable sawmill</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Portable sawmills <i class="las la-caret-down"></i>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a href="#">Hm122 portable sawmill</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hm125 portable sawmill</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hm126 portable sawmill</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Accessories<i class="las la-caret-down"></i>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Portable sawmills <i class="las la-caret-down"></i>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a href="#">Hm122 portable sawmill</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hm125 portable sawmill</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hm126 portable sawmill</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Portable sawmills <i class="las la-caret-down"></i>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a href="#">Hm122 portable sawmill</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hm125 portable sawmill</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hm126 portable sawmill</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Portable sawmills <i class="las la-caret-down"></i>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a href="#">Hm122 portable sawmill</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hm125 portable sawmill</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hm126 portable sawmill</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Products <i class="las la-caret-down"></i>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Portable sawmills <i class="las la-caret-down"></i>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a href="#">Hm122 portable sawmill</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hm125 portable sawmill</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hm126 portable sawmill</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Portable sawmills <i class="las la-caret-down"></i>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a href="#">Hm122 portable sawmill</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hm125 portable sawmill</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hm126 portable sawmill</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Portable sawmills <i class="las la-caret-down"></i>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a href="#">Hm122 portable sawmill</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hm125 portable sawmill</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hm126 portable sawmill</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Gear & Apparel
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Contact Us
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#">Sign in</a>
+                    </li>
+                    <li>
+                        <a href="#">Register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div class="container">
+    <nav>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a href="#">Home</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a href="#">Library</a>
+            </li>
+            <li class="breadcrumb-item active">
+                Data
+            </li>
+        </ol>
+    </nav>
+</div>
+
+<section class="content">
+    <div class="container">
+        <h1 class="content__header">Making an order</h1>
+
+        <div class="order">
+            <div class="order__list">
+
+                <div class="order__item">
+                    <div class="order__item-head">
+                        <div>
+                            <i class="las la-check"></i>
+                            Products in the order
+                        </div>
+                    </div>
+                    <div class="order__item-body">
+                        <div class="order__cart">
+                            <div class="order__cart__image">
+                                <img src="/images/cart/cart_preview.jpg" alt="">
+                            </div>
+                            <div class="order__cart__product">
+                                <a href="#">HM126 Portable Sawmill</a>
+                                <div>
+                                    <span>Engine Option:</span>
+                                    <span>9.5 HP</span>
+                                </div>
+                            </div>
+                            <div class="order__cart__count text-end">
+                                <span>1 th</span>
+                            </div>
+                            <div class="order__cart__price text-end">
+                                $3,399.00
+                            </div>
+                        </div>
+                        <div class="order__cart">
+                            <div class="order__cart__image">
+                                <img src="/images/cart/cart_preview.jpg" alt="">
+                            </div>
+                            <div class="order__cart__product">
+                                <a href="#">HM126 Portable Sawmill</a>
+                                <div>
+                                    <span>Engine Option:</span>
+                                    <span>9.5 HP</span>
+                                </div>
+                            </div>
+                            <div class="order__cart__count text-end">
+                                <span>1 th</span>
+                            </div>
+                            <div class="order__cart__price text-end">
+                                $3,399.00
+                            </div>
+                        </div>
+
+                        <div class="order__item-btn">
+                            <a href="#delivery_region" class="btn btn_green-to-white">Continue</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="order__item">
+                    <div class="order__item-head">
+                        <div>
+                            <span>2</span>
+                            <a href="#delivery_region">Delivery region</a>
+                        </div>
+                        <a href="#delivery_region" class="btn btn_small btn_green-to-white">edit</a>
+                    </div>
+
+                    <div id="delivery_region" class="order__item-body hide">
+                        <div class="form__item">
+                            <div class="form-label">Type of payer</div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" id="fiz" checked>
+                                <label class="form-check-label" for="fiz">
+                                    Private individual
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" id="ur">
+                                <label class="form-check-label" for="ur">
+                                    Legal person
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form__item">
+                            <div class="form-label">Location <span>*</span></div>
+                            <input type="text" class="form-control" name="location">
+                        </div>
+                        <div class="form__item">
+                            <div class="form-label">Zip Code <span>*</span></div>
+                            <input type="text" class="form-control" name="Zip Code">
+                        </div>
+
+                        <div class="order__item-btn">
+                            <a href="#delivery" class="btn btn_green-to-white">Continue</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="order__item">
+                    <div class="order__item-head">
+                        <div>
+                            <span>3</span>
+                            <a href="#delivery">Delivery</a>
+                        </div>
+                        <a href="#delivery" class="btn btn_small btn_green-to-white">edit</a>
+                    </div>
+
+                    <div id="delivery" class="order__item-body hide">
+                        <div class="form__item">
+                            <div class="form__radio_dig">
+                                <input type="radio" name="shipping" id="shipping">
+                                <label for="shipping">
+            <span class="shipping__name">
+                Shipping (Flat Rate)
+            </span>
+
+                                    <span class="shipping__price">
+                $748.00
+            </span>
+                                </label>
+                            </div>
+
+                            <div class="form__radio_dig">
+                                <input type="radio" name="shipping" id="pick_up" checked>
+                                <label for="pick_up">
+            <span class="shipping__name">
+                Pick up
+            </span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="order__item-btn">
+                            <a href="#payment" class="btn btn_green-to-white">Continue</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="order__item">
+                    <div class="order__item-head">
+                        <div>
+                            <span>4</span>
+                            <a href="#payment">Payment</a>
+                        </div>
+                        <a href="#payment" class="btn btn_small btn_green-to-white">edit</a>
+                    </div>
+
+                    <div id="payment" class="order__item-body hide">
+                        <div class="form__item">
+                            <div class="form__radio_dig">
+                                <input type="radio" name="payment" id="plastic_cart" checked>
+                                <label for="plastic_cart">
+            <span class="shipping__name">
+                Bank card
+            </span>
+                                </label>
+                            </div>
+
+                            <div class="form__radio_dig">
+                                <input type="radio" name="payment" id="courier">
+                                <label for="courier">
+            <span class="shipping__name">
+                Сash to the courier
+            </span>
+                                </label>
+                            </div>
+
+                            <div class="form__radio_dig">
+                                <input type="radio" name="payment" id="terminal">
+                                <label for="terminal">
+            <span class="shipping__name">
+                Terminal
+            </span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="order__item-btn">
+                            <a href="#buyer" class="btn btn_green-to-white">Continue</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="order__item">
+                    <div class="order__item-head">
+                        <div>
+                            <span>5</span>
+                            <a href="#buyer">Buyer</a>
+                        </div>
+                        <a href="#buyer" class="btn btn_small btn_green-to-white">edit</a>
+                    </div>
+
+                    <div id="buyer" class="order__item-body hide">
+                        <div class="form__item">
+                            <div class="form-label">First Name <span>*</span></div>
+                            <input type="text" class="form-control" name="first_name">
+                        </div>
+
+                        <div class="form__item">
+                            <div class="form-label">Last Name <span>*</span></div>
+                            <input type="text" class="form-control" name="last_name">
+                        </div>
+
+                        <div class="form__item">
+                            <div class="form-label">Email <span>*</span></div>
+                            <input type="email" class="form-control" name="email">
+                        </div>
+
+                        <div class="form__item">
+                            <div class="form-label">Phone <span>*</span></div>
+                            <input type="email" class="form-control" name="phone">
+                        </div>
+
+                        <div class="form__item">
+                            <div class="form-label">Address <span>*</span></div>
+                            <textarea class="form-control" name="address"></textarea>
+                        </div>
+
+                        <div class="form__item">
+                            <div class="form-label">Comment <span>*</span></div>
+                            <textarea class="form-control" name="comment"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="order__btn">
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="checkbox" id="conditions">
+                        <label class="form-check-label" for="conditions">
+                            Yes, I agree with the terms and conditions.
+                        </label>
+                    </div>
+
+                    <a href="#" class="btn btn_green-to-white">place order</a>
+                </div>
+            </div>
+
+            <div>
+                <div class="order__prices">
+                    <div class="order__prices-block">
+                        <strong>Order Summary</strong>
+                    </div>
+
+                    <div class="order__prices-block order__prices-block_small">
+                        <div>
+                            <span>Subtotal:</span>
+                            <span>$5,798.00</span>
+                        </div>
+                        <div>
+                            <span>Delivery:</span>
+                            <span>$700.00</span>
+                        </div>
+                    </div>
+
+                    <div class="order__prices-block">
+                        <div>
+                            <span>Total:</span>
+                            <span class="h4">$6,498.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="footer">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 footer__menu">
+                <ul>
+                    <li>
+                        Explore
+                    </li>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Portable Sawmills</a>
+                    </li>
+                    <li>
+                        <a href="#">Wood Chippers</a>
+                    </li>
+                    <li>
+                        <a href="#">Portable Sawmills</a>
+                    </li>
+                    <li>
+                        <a href="#">Wood Chippers</a>
+                    </li>
+                    <li>
+                        <a href="#">Portable Sawmills</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        Company
+                    </li>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Portable Sawmills</a>
+                    </li>
+                    <li>
+                        <a href="#">Wood Chippers</a>
+                    </li>
+                    <li>
+                        <a href="#">Portable Sawmills</a>
+                    </li>
+                    <li>
+                        <a href="#">Wood Chippers</a>
+                    </li>
+                    <li>
+                        <a href="#">Portable Sawmills</a>
+                    </li>
+                    <li>
+                        <a href="#">Wood Chippers</a>
+                    </li>
+                    <li>
+                        <a href="#">Portable Sawmills</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        Support
+                    </li>
+                    <li>
+                        <a href="#">Portable Sawmills</a>
+                    </li>
+                    <li>
+                        <a href="#">Wood Chippers</a>
+                    </li>
+                    <li>
+                        <a href="#">Portable Sawmills</a>
+                    </li>
+                    <li>
+                        <a href="#">Wood Chippers</a>
+                    </li>
+                    <li>
+                        <a href="#">Portable Sawmills</a>
+                    </li>
+                    <li>
+                        <a href="#">Portable Sawmills</a>
+                    </li>
+                    <li>
+                        <a href="#">Wood Chippers</a>
+                    </li>
+                    <li>
+                        <a href="#">Portable Sawmills</a>
+                    </li>
+                    <li>
+                        <a href="#">Wood Chippers</a>
+                    </li>
+                    <li>
+                        <a href="#">Portable Sawmills</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <div class="footer__subscribe">
+                    <p>Sign up for the latest news and offers</p>
+
+                    <form action="">
+                        <input class="input_normal" type="text" placeholder="name@mail.com">
+
+                        <button class="btn btn_green-to-white" type="submit">
+                            Subscribe
+                        </button>
+                    </form>
+
+                    <small>By clicking "Subscribe," you agree to receive promotional emails from Woodland Mills.</small>
+                </div>
+
+                <div class="social-media">
+                    <p>Social media</p>
+
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="la la-youtube"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="la la-vk"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="la la-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 copyright">
+                Copyright, 2022. Woodland Mills Inc. All Rights Reserved. Bushlander™, Woodlander™, Multilander™,
+                RapidChange™ and Discover The Woodland™ are trademarks owned by Woodland Mills Inc.
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"
+></script>
+<script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"
+></script>
+<script src="/scripts/slick.min.js" type="text/javascript"></script>
+<script src="/scripts/fslightbox.js"></script>
+<script src="/scripts/app.min.js"></script>
+</body>
+</html>

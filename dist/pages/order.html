@@ -1,0 +1,146 @@
+@@include('../components/head.html')
+
+@@include('../components/header/phone.html')
+
+<header class="head">
+    @@include('../components/header/head.html')
+    @@include('../components/header/menu.html')
+</header>
+
+@@include('../components/pages-element/breadcrumbs.html')
+
+<section class="content">
+    <div class="container">
+        <h1 class="content__header">Making an order</h1>
+
+        <div class="order">
+            <div class="order__list">
+
+                <div class="order__item">
+                    <div class="order__item-head">
+                        <div>
+                            <i class="las la-check"></i>
+                            Products in the order
+                        </div>
+                    </div>
+                    <div class="order__item-body">
+                        @@include('../components/order/order-cart.html')
+
+                        <div class="order__item-btn">
+                            <a href="#delivery_region" class="btn btn_green-to-white">Continue</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="order__item">
+                    <div class="order__item-head">
+                        <div>
+                            <span>2</span>
+                            <a href="#delivery_region">Delivery region</a>
+                        </div>
+                        <a href="#delivery_region" class="btn btn_small btn_green-to-white">edit</a>
+                    </div>
+
+                    <div id="delivery_region" class="order__item-body hide">
+                        @@include('../components/order/deliv-region.html')
+
+                        <div class="order__item-btn">
+                            <a href="#delivery" class="btn btn_green-to-white">Continue</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="order__item">
+                    <div class="order__item-head">
+                        <div>
+                            <span>3</span>
+                            <a href="#delivery">Delivery</a>
+                        </div>
+                        <a href="#delivery" class="btn btn_small btn_green-to-white">edit</a>
+                    </div>
+
+                    <div id="delivery" class="order__item-body hide">
+                        @@include('../components/order/shipping.html')
+
+                        <div class="order__item-btn">
+                            <a href="#payment" class="btn btn_green-to-white">Continue</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="order__item">
+                    <div class="order__item-head">
+                        <div>
+                            <span>4</span>
+                            <a href="#payment">Payment</a>
+                        </div>
+                        <a href="#payment" class="btn btn_small btn_green-to-white">edit</a>
+                    </div>
+
+                    <div id="payment" class="order__item-body hide">
+                        @@include('../components/order/payment.html')
+
+                        <div class="order__item-btn">
+                            <a href="#buyer" class="btn btn_green-to-white">Continue</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="order__item">
+                    <div class="order__item-head">
+                        <div>
+                            <span>5</span>
+                            <a href="#buyer">Buyer</a>
+                        </div>
+                        <a href="#buyer" class="btn btn_small btn_green-to-white">edit</a>
+                    </div>
+
+                    <div id="buyer" class="order__item-body hide">
+                        @@include('../components/order/buyer.html')
+                    </div>
+                </div>
+
+                <div class="order__btn">
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="checkbox" id="conditions">
+                        <label class="form-check-label" for="conditions">
+                            Yes, I agree with the terms and conditions.
+                        </label>
+                    </div>
+
+                    <a href="#" class="btn btn_green-to-white">place order</a>
+                </div>
+            </div>
+
+            <div>
+                <div class="order__prices">
+                    <div class="order__prices-block">
+                        <strong>Order Summary</strong>
+                    </div>
+
+                    <div class="order__prices-block order__prices-block_small">
+                        <div>
+                            <span>Subtotal:</span>
+                            <span>$5,798.00</span>
+                        </div>
+                        <div>
+                            <span>Delivery:</span>
+                            <span>$700.00</span>
+                        </div>
+                    </div>
+
+                    <div class="order__prices-block">
+                        <div>
+                            <span>Total:</span>
+                            <span class="h4">$6,498.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@@include('../components/footer/footer.html')
+
+@@include('../components/footer.html')

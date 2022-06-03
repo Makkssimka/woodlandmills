@@ -1,0 +1,47 @@
+<div class="head-logo">
+    <div class="container">
+        <div class="row">
+            <div class="col-4 head-logo__buttons">
+                <div class="head-logo__mobile-btn">
+                    <a href="#">
+                        <i class="las la-bars"></i>
+                    </a>
+                </div>
+
+                <div class="head-logo__profile">
+                    <a href="#">
+                        <i class="las la-user"></i>
+                    </a>
+                    @@include('../header/auth.html')
+                </div>
+
+                <div class="d-flex-center head-logo__search">
+                    <a id="search__btn" href="#" class="d-flex-center">
+                        <i class="las la-search"></i>
+                        search
+                    </a>
+
+                    <input
+                        id="search__input"
+                        class="input_material"
+                        type="text"
+                        placeholder="search the store"
+                    >
+                </div>
+            </div>
+            
+            <div class="col-4 head-logo__img">
+                <img src="/images/logo.png" alt="woodlandmills">
+            </div>
+
+            <div class="col-4 head-logo__cart">
+                <a href="#" class="d-flex-center open-tooltip" data-tooltip="#cart">
+                    <i class="las la-shopping-cart"></i>
+                    <span class="head-cart__name">cart</span>
+                    <span class="head-cart__counter">(0)</span>
+                </a>
+                @@include('../header/cart.html')
+            </div>
+        </div>
+    </div>
+</div>

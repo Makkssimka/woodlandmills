@@ -1,0 +1,292 @@
+<div class="contact">
+    <div class="contact__tabs">
+        <a href="#sales" class="contact__tabs-item active">
+            Sales
+            <i class="las la-shopping-cart"></i>
+        </a>
+        <a href="#support" class="contact__tabs-item">
+            Technical Support
+            <i class="las la-question-circle"></i>
+        </a>
+        <a href="#replacement" class="contact__tabs-item">
+            Replacement Parts
+            <i class="las la-cog"></i>
+        </a>
+    </div>
+    <div class="contact__tabs-content">
+        <div data-tab="#sales" class="contact__tab contact__tab_visible">
+            <h3>Contact Sales</h3>
+
+            <form class="form_valid" action="#">
+                <div class="row">
+                    <div class="col-md-6 form__item">
+                        <label for="first_name" class="form-label">First Name</label>
+                        <input
+                                type="text"
+                                class="form-control"
+                                id="first_name"
+                                name="first_name"
+                        >
+                    </div>
+
+                    <div class="col-md-6 form__item">
+                        <label for="last_name" class="form-label">Last Name</label>
+                        <input
+                                type="text"
+                                class="form-control"
+                                id="last_name"
+                                name="last_name"
+                        >
+                    </div>
+
+                    <div class="col-md-6 form__item">
+                        <label for="phone_number" class="form-label">
+                            Phone number <span>*</span>
+                            <span class="form__error">
+                                Phone number required
+                            </span>
+                        </label>
+                        <input
+                                type="text"
+                                class="form-control form-required"
+                                id="phone_number"
+                                name="phone_number"
+                                placeholder="123-456-7890"
+                        >
+                    </div>
+
+                    <div class="col-md-6 form__item">
+                        <label for="email" class="form-label">
+                            Email Address <span>*</span>
+                            <span class="form__error">
+                                Email Address required
+                            </span>
+                        </label>
+                        <input
+                                type="email"
+                                class="form-control form-required"
+                                id="email"
+                                name="email"
+                                placeholder="name@email.com"
+                        >
+                    </div>
+
+                    <div class="col-md-12 form__item">
+                        <label for="comment" class="form-label">
+                            Comments/Questions <span>*</span>
+                        </label>
+                        <textarea
+                                type="text"
+                                class="form-control"
+                                id="comment"
+                                name="comment"
+                        ></textarea>
+                    </div>
+
+                    <div class="col-md-12 contact__tabs-buttons">
+                        <button
+                                type="submit"
+                                class="btn btn_green-to-white form-submit__btn">
+                            Submit form
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+
+        <div data-tab="#support" class="contact__tab">
+            <h3>Contact Tech</h3>
+
+            <form class="form_valid" action="#">
+                <div class="row">
+                    <div class="col-md-6 form__item">
+                        <label for="first_name" class="form-label">First Name</label>
+                        <input
+                                type="text"
+                                class="form-control"
+                                id="first_name"
+                                name="first_name"
+                        >
+                    </div>
+
+                    <div class="col-md-6 form__item">
+                        <label for="last_name" class="form-label">Last Name</label>
+                        <input
+                                type="text"
+                                class="form-control"
+                                id="last_name"
+                                name="last_name"
+                        >
+                    </div>
+
+                    <div class="col-md-6 form__item">
+                        <label for="phone_number" class="form-label">
+                            Phone number <span>*</span>
+                            <span class="form__error">
+                                Phone number required
+                            </span>
+                        </label>
+                        <input
+                                type="text"
+                                class="form-control form-required"
+                                id="phone_number"
+                                name="phone_number"
+                                placeholder="123-456-7890"
+                        >
+                    </div>
+
+                    <div class="col-md-6 form__item">
+                        <label for="email" class="form-label">
+                            Email Address <span>*</span>
+                            <span class="form__error">
+                                Email Address required
+                            </span>
+                        </label>
+                        <input
+                                type="email"
+                                class="form-control form-required"
+                                id="email"
+                                name="email"
+                                placeholder="name@email.com"
+                        >
+                    </div>
+
+                    <div class="col-md-6 form__item">
+                        <label for="select" class="form-label">
+                            What product are you inquiring about?
+                        </label>
+
+                        <select
+                            name="select"
+                            id="select"
+                            class="form-select">
+                                <option selected disabled>Select Product</option>
+                                <option value="722 Portable Sawmill">722 Portable Sawmill</option>
+                                <option value="PC-8M/H">PC-8M/H</option>
+                                <option value="Bushlander Trailer">Bushlander Trailer</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-12 form__item">
+                        <label for="comment" class="form-label">
+                            Comments/Questions <span>*</span>
+                        </label>
+                        <textarea
+                                type="text"
+                                class="form-control"
+                                id="comment"
+                                name="comment"
+                        ></textarea>
+                    </div>
+
+                    <div class="col-md-12 contact__tabs-buttons">
+                        <button
+                                type="submit"
+                                class="btn btn_green-to-white form-submit__btn">
+                            Submit form
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+
+        <div data-tab="#replacement" class="contact__tab">
+            <h3>Request Replacement Parts</h3>
+
+            <form class="form_valid" action="#">
+                <div class="row">
+                    <div class="col-md-6 form__item">
+                        <label for="first_name" class="form-label">First Name</label>
+                        <input
+                                type="text"
+                                class="form-control"
+                                id="first_name"
+                                name="first_name"
+                        >
+                    </div>
+
+                    <div class="col-md-6 form__item">
+                        <label for="last_name" class="form-label">Last Name</label>
+                        <input
+                                type="text"
+                                class="form-control"
+                                id="last_name"
+                                name="last_name"
+                        >
+                    </div>
+
+                    <div class="col-md-6 form__item">
+                        <label for="phone_number" class="form-label">
+                            Phone number <span>*</span>
+                            <span class="form__error">
+                                Phone number required
+                            </span>
+                        </label>
+                        <input
+                                type="text"
+                                class="form-control form-required"
+                                id="phone_number"
+                                name="phone_number"
+                                placeholder="123-456-7890"
+                        >
+                    </div>
+
+                    <div class="col-md-6 form__item">
+                        <label for="email" class="form-label">
+                            Email Address <span>*</span>
+                            <span class="form__error">
+                                Email Address required
+                            </span>
+                        </label>
+                        <input
+                                type="email"
+                                class="form-control form-required"
+                                id="email"
+                                name="email"
+                                placeholder="name@email.com"
+                        >
+                    </div>
+
+                    <div class="col-md-6 form__item">
+                        <label for="select" class="form-label">
+                            What product are you inquiring about?
+                        </label>
+
+                        <select
+                                name="select"
+                                id="select"
+                                class="form-select">
+                            <option selected disabled>Select Product</option>
+                            <option value="722 Portable Sawmill">722 Portable Sawmill</option>
+                            <option value="PC-8M/H">PC-8M/H</option>
+                            <option value="Bushlander Trailer">Bushlander Trailer</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-12 form__item">
+                        <label for="comment" class="form-label">
+                            Comments/Questions <span>*</span>
+                        </label>
+                        <textarea
+                                type="text"
+                                class="form-control"
+                                id="comment"
+                                name="comment"
+                        ></textarea>
+                    </div>
+
+                    <div class="col-md-12 contact__tabs-buttons">
+                        <button
+                                type="submit"
+                                class="btn btn_green-to-white form-submit__btn">
+                            Submit form
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,116 @@
+@@include('../components/head.html')
+
+@@include('../components/header/phone.html')
+
+<header class="head">
+    @@include('../components/header/head.html')
+    @@include('../components/header/menu.html')
+</header>
+
+@@include('../components/pages-element/breadcrumbs.html')
+
+<section class="content">
+    <div class="container">
+        <div class="alert alert-danger alert-dismissible fade show">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, fuga.
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+        <h1 class="content__header">Your Cart (2 items)</h1>
+
+        <div class="cart__table">
+            <div class="table__row table__head">
+                <div class="table__td">Item</div>
+                <div class="table__td">Price</div>
+                <div class="table__td">Quantity</div>
+                <div class="table__td">Total</div>
+            </div>
+            <div class="table__row table__item">
+                <div class="table__td table_product">
+                    <img src="/images/cart/cart_preview.jpg">
+                    <div class="table__product">
+                        <a href="#">HM126 Portable Sawmill</a>
+                        <div>
+                            <span>Engine Option:</span>
+                            <span>9.5 HP</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="table__td table__sub-price">
+                    $3,399.00
+                </div>
+
+                <div class="table__td table__counter">
+                    <div class="form__counter">
+                        <i class="las la-minus" data-direction="down"></i>
+                        <input type="text" name="product-count" size="3" value="1">
+                        <i class="las la-plus" data-direction="up"></i>
+                    </div>
+                </div>
+
+                <div class="table__td table__price">
+                    $3,399.00
+
+                    <a href="#" class="cart__remove">
+                        <i class="las la-times"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="table__row table__item">
+                <div class="table__td table_product">
+                    <img src="/images/cart/cart_preview.jpg">
+                    <div class="table__product">
+                        <a href="#">WG24 Stump Grinder</a>
+                    </div>
+                </div>
+
+                <div class="table__td table__sub-price">
+                    $2,399.00
+                </div>
+
+                <div class="table__td table__counter">
+                    <div class="form__counter">
+                        <i class="las la-minus" data-direction="down"></i>
+                        <input
+                            type="text"
+                            name="product-count"
+                            size="3"
+                            value="1"
+                        >
+                        <i class="las la-plus" data-direction="up"></i>
+                    </div>
+                </div>
+
+                <div class="table__td table__price">
+                    $2,399.00
+
+                    <a href="#" class="cart__remove">
+                        <i class="las la-times"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="cart__total">
+            <div class="cart__total-item">
+                <strong>Subtotal:</strong>
+                <span>$5,798.00</span>
+            </div>
+            <div class="cart__total-item">
+                <strong>Promocode:</strong>
+                <input class="form-control" type="text" name="promocode">
+            </div>
+            <div class="cart__total-item">
+                <strong>Total:</strong>
+                <strong>$5,798.00</strong>
+            </div>
+            <div class="cart__btn">
+                <a href="#" class="btn btn_green-to-white">Check out</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+@@include('../components/footer/footer.html')
+
+@@include('../components/footer.html')

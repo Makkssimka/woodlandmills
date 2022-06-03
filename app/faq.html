@@ -1,0 +1,817 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+            crossorigin="anonymous"
+    />
+
+    <link
+            href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+            rel="stylesheet"
+            type="text/css"
+    />
+    <link
+            href="/styles/line-awesome.min.css"
+            rel="stylesheet"
+    />
+    <link
+            href="/styles/slick.css"
+            rel="stylesheet"
+    />
+    <link
+            href="/styles/app.min.css"
+            rel="stylesheet"
+    />
+</head>
+<body>
+
+<div class="head-phone">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                We are currently experiencing high call volumes which may result in long wait times. Please place your
+                order online.
+            </div>
+            <div class="col-md-6 head-phone__item">
+                Phone: <a href="tel:+1 855-476-6455">+1 855-476-6455</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<header class="head">
+    <div class="head-logo">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 head-logo__buttons">
+                    <div class="head-logo__mobile-btn">
+                        <a href="#">
+                            <i class="las la-bars"></i>
+                        </a>
+                    </div>
+
+                    <div class="head-logo__profile">
+                        <a href="#">
+                            <i class="las la-user"></i>
+                        </a>
+                        <div class="tooltips tooltips_top-left">
+                            <div class="tooltips__body">
+                                <a href="#" class="tooltips__item d-flex-center">
+                                    <i class="las la-sign-in-alt"></i>
+                                    Sing In
+                                </a>
+                                <a href="#" class="tooltips__item d-flex-center">
+                                    <i class="las la-user-plus"></i>
+                                    Register
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex-center head-logo__search">
+                        <a id="search__btn" href="#" class="d-flex-center">
+                            <i class="las la-search"></i>
+                            search
+                        </a>
+
+                        <input
+                                id="search__input"
+                                class="input_material"
+                                type="text"
+                                placeholder="search the store"
+                        >
+                    </div>
+                </div>
+
+                <div class="col-4 head-logo__img">
+                    <img src="/images/logo.png" alt="woodlandmills">
+                </div>
+
+                <div class="col-4 head-logo__cart">
+                    <a href="#" class="d-flex-center open-tooltip" data-tooltip="#cart">
+                        <i class="las la-shopping-cart"></i>
+                        <span class="head-cart__name">cart</span>
+                        <span class="head-cart__counter">(0)</span>
+                    </a>
+                    <div class="tooltips tooltips_top-right" id="cart">
+                        <div class="tooltips__body">
+                            <a href="#" class="head-cart__item">
+                                <img src="/images/cart/cart_preview.jpg" alt="WC88 8 PTO Wood Chipper">
+                                WC88 8" PTO Wood Chipper
+                            </a>
+                        </div>
+
+                        <div class="tooltips__footer text-center">
+                            <a href="" class="btn btn_small">
+                                View cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav>
+        <ul class="head-menu">
+            <li>
+                <a href="#">
+                    Products <i class="las la-caret-down"></i>
+                </a>
+                <div class="head-menu__submenu">
+                    <ul>
+                        <li class="head-menu__category">
+                            <a href="#">Portable sawmills</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm122 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm125 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm126 portable sawmill</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="head-menu__category">
+                            <a href="#">Portable sawmills</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm122 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm125 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm126 portable sawmill</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="head-menu__category">
+                            <a href="#">Portable sawmills</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm122 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm125 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm126 portable sawmill</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="head-menu__category">
+                            <a href="#">Portable sawmills</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm122 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm125 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm126 portable sawmill</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">
+                    Accessories <i class="las la-caret-down"></i>
+                </a>
+                <div class="head-menu__submenu">
+                    <ul>
+                        <li class="head-menu__category">
+                            <a href="#">Portable Sawmills 234</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm122 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm125 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm126 portable sawmill</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="head-menu__category">
+                            <a href="#">Sawmill Trailers</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm122 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm125 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm126 portable sawmill</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="head-menu__category">
+                            <a href="#">Portable sawmills</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm122 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm125 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm126 portable sawmill</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="head-menu__category">
+                            <a href="#">Portable sawmills</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm122 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm125 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm126 portable sawmill</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">
+                    Blades & Blade Maintenance <i class="las la-caret-down"></i>
+                </a>
+                <div class="head-menu__submenu">
+                    <ul>
+                        <li class="head-menu__category">
+                            <a href="#">Portable sawmills</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm122 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm125 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm126 portable sawmill</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="head-menu__category">
+                            <a href="#">Portable sawmills</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm122 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm125 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm126 portable sawmill</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="head-menu__category">
+                            <a href="#">Portable sawmills</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm122 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm125 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm126 portable sawmill</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="head-menu__category">
+                            <a href="#">Portable sawmills</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm122 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm125 portable sawmill</a>
+                        </li>
+                        <li>
+                            <a href="#">Hm126 portable sawmill</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">
+                    Gear & Apparel
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Contact Us
+                </a>
+            </li>
+        </ul>
+        <div class="head-menu__mobile">
+            <div class="container">
+                <ul>
+                    <li>
+                        <input
+                                type="text"
+                                class="input_normal"
+                                placeholder="search the store"
+                        >
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#">
+                            Products <i class="las la-caret-down"></i>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Portable sawmills <i class="las la-caret-down"></i>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a href="#">Hm122 portable sawmill</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hm125 portable sawmill</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hm126 portable sawmill</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Portable sawmills <i class="las la-caret-down"></i>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a href="#">Hm122 portable sawmill</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hm125 portable sawmill</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hm126 portable sawmill</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Portable sawmills <i class="las la-caret-down"></i>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a href="#">Hm122 portable sawmill</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hm125 portable sawmill</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hm126 portable sawmill</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Accessories<i class="las la-caret-down"></i>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Portable sawmills <i class="las la-caret-down"></i>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a href="#">Hm122 portable sawmill</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hm125 portable sawmill</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hm126 portable sawmill</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Portable sawmills <i class="las la-caret-down"></i>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a href="#">Hm122 portable sawmill</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hm125 portable sawmill</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hm126 portable sawmill</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Portable sawmills <i class="las la-caret-down"></i>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a href="#">Hm122 portable sawmill</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hm125 portable sawmill</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hm126 portable sawmill</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Products <i class="las la-caret-down"></i>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Portable sawmills <i class="las la-caret-down"></i>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a href="#">Hm122 portable sawmill</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hm125 portable sawmill</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hm126 portable sawmill</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Portable sawmills <i class="las la-caret-down"></i>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a href="#">Hm122 portable sawmill</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hm125 portable sawmill</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hm126 portable sawmill</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Portable sawmills <i class="las la-caret-down"></i>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a href="#">Hm122 portable sawmill</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hm125 portable sawmill</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Hm126 portable sawmill</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Gear & Apparel
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Contact Us
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#">Sign in</a>
+                    </li>
+                    <li>
+                        <a href="#">Register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div class="container">
+    <nav>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a href="#">Home</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a href="#">Library</a>
+            </li>
+            <li class="breadcrumb-item active">
+                Data
+            </li>
+        </ol>
+    </nav>
+</div>
+
+<section class="content">
+    <div class="container">
+        <h1 class="content__header">FAQ</h1>
+
+        <h3 class="content__subheader">
+            <i class="las la-tag"></i> Placing Your Order
+        </h3>
+
+        <div class="accordion_simple">
+            <div class="accordion__item">
+                <div class="accordion__header">
+                    How long will it take to receive my order?
+                    <i class="las la-plus"></i>
+                </div>
+                <div class="accordion__body">
+                    <p>We accept Visa, MasterCard, Bank Wire Transfer, Certified Cheque, e-transfer*, and Affirm Monthly
+                        Payments* (*USA Only). Personal cheques are not accepted. Please do not mail personal cheques as
+                        payment.</p>
+                    <p>We are not accepting deposits. All <a href="#">orders need to be paid</a> in full at the time of
+                        purchase. We require full payment so that we can lock in the best current market and delivery
+                        price for you. If paying by credit card, your card will be charged immediately for the full
+                        order amount at the time of purchase.</p>
+                </div>
+            </div>
+            <div class="accordion__item">
+                <div class="accordion__header">
+                    Will I be contacted by Woodland Mills after I place my order?
+                    <i class="las la-plus"></i>
+                </div>
+                <div class="accordion__body">
+                    <p>We accept Visa, MasterCard, Bank Wire Transfer, Certified Cheque, e-transfer*, and Affirm Monthly
+                        Payments* (*USA Only). Personal cheques are not accepted. Please do not mail personal cheques as
+                        payment.</p>
+                    <p>We are not accepting deposits. All <a href="#">orders need to be paid</a> in full at the time of
+                        purchase. We require full payment so that we can lock in the best current market and delivery
+                        price for you. If paying by credit card, your card will be charged immediately for the full
+                        order amount at the time of purchase.</p>
+                </div>
+            </div>
+            <div class="accordion__item">
+                <div class="accordion__header">
+                    Can Woodland Mills ship to a PO Box?
+                    <i class="las la-plus"></i>
+                </div>
+                <div class="accordion__body">
+                    <p>We accept Visa, MasterCard, Bank Wire Transfer, Certified Cheque, e-transfer*, and Affirm Monthly
+                        Payments* (*USA Only). Personal cheques are not accepted. Please do not mail personal cheques as
+                        payment.</p>
+                    <p>We are not accepting deposits. All <a href="#">orders need to be paid</a> in full at the time of
+                        purchase. We require full payment so that we can lock in the best current market and delivery
+                        price for you. If paying by credit card, your card will be charged immediately for the full
+                        order amount at the time of purchase.</p>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="content__subheader">
+            <i class="las la-dollar-sign"></i> Payment
+        </h3>
+
+        <div class="accordion_simple">
+            <div class="accordion__item">
+                <div class="accordion__header">
+                    How long will it take to receive my order?
+                    <i class="las la-plus"></i>
+                </div>
+                <div class="accordion__body">
+                    <p>We accept Visa, MasterCard, Bank Wire Transfer, Certified Cheque, e-transfer*, and Affirm Monthly
+                        Payments* (*USA Only). Personal cheques are not accepted. Please do not mail personal cheques as
+                        payment.</p>
+                    <p>We are not accepting deposits. All <a href="#">orders need to be paid</a> in full at the time of
+                        purchase. We require full payment so that we can lock in the best current market and delivery
+                        price for you. If paying by credit card, your card will be charged immediately for the full
+                        order amount at the time of purchase.</p>
+                </div>
+            </div>
+            <div class="accordion__item">
+                <div class="accordion__header">
+                    Will I be contacted by Woodland Mills after I place my order?
+                    <i class="las la-plus"></i>
+                </div>
+                <div class="accordion__body">
+                    <p>We accept Visa, MasterCard, Bank Wire Transfer, Certified Cheque, e-transfer*, and Affirm Monthly
+                        Payments* (*USA Only). Personal cheques are not accepted. Please do not mail personal cheques as
+                        payment.</p>
+                    <p>We are not accepting deposits. All <a href="#">orders need to be paid</a> in full at the time of
+                        purchase. We require full payment so that we can lock in the best current market and delivery
+                        price for you. If paying by credit card, your card will be charged immediately for the full
+                        order amount at the time of purchase.</p>
+                </div>
+            </div>
+            <div class="accordion__item">
+                <div class="accordion__header">
+                    Can Woodland Mills ship to a PO Box?
+                    <i class="las la-plus"></i>
+                </div>
+                <div class="accordion__body">
+                    <p>We accept Visa, MasterCard, Bank Wire Transfer, Certified Cheque, e-transfer*, and Affirm Monthly
+                        Payments* (*USA Only). Personal cheques are not accepted. Please do not mail personal cheques as
+                        payment.</p>
+                    <p>We are not accepting deposits. All <a href="#">orders need to be paid</a> in full at the time of
+                        purchase. We require full payment so that we can lock in the best current market and delivery
+                        price for you. If paying by credit card, your card will be charged immediately for the full
+                        order amount at the time of purchase.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="footer">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 footer__menu">
+                <ul>
+                    <li>
+                        Explore
+                    </li>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Portable Sawmills</a>
+                    </li>
+                    <li>
+                        <a href="#">Wood Chippers</a>
+                    </li>
+                    <li>
+                        <a href="#">Portable Sawmills</a>
+                    </li>
+                    <li>
+                        <a href="#">Wood Chippers</a>
+                    </li>
+                    <li>
+                        <a href="#">Portable Sawmills</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        Company
+                    </li>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Portable Sawmills</a>
+                    </li>
+                    <li>
+                        <a href="#">Wood Chippers</a>
+                    </li>
+                    <li>
+                        <a href="#">Portable Sawmills</a>
+                    </li>
+                    <li>
+                        <a href="#">Wood Chippers</a>
+                    </li>
+                    <li>
+                        <a href="#">Portable Sawmills</a>
+                    </li>
+                    <li>
+                        <a href="#">Wood Chippers</a>
+                    </li>
+                    <li>
+                        <a href="#">Portable Sawmills</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        Support
+                    </li>
+                    <li>
+                        <a href="#">Portable Sawmills</a>
+                    </li>
+                    <li>
+                        <a href="#">Wood Chippers</a>
+                    </li>
+                    <li>
+                        <a href="#">Portable Sawmills</a>
+                    </li>
+                    <li>
+                        <a href="#">Wood Chippers</a>
+                    </li>
+                    <li>
+                        <a href="#">Portable Sawmills</a>
+                    </li>
+                    <li>
+                        <a href="#">Portable Sawmills</a>
+                    </li>
+                    <li>
+                        <a href="#">Wood Chippers</a>
+                    </li>
+                    <li>
+                        <a href="#">Portable Sawmills</a>
+                    </li>
+                    <li>
+                        <a href="#">Wood Chippers</a>
+                    </li>
+                    <li>
+                        <a href="#">Portable Sawmills</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <div class="footer__subscribe">
+                    <p>Sign up for the latest news and offers</p>
+
+                    <form action="">
+                        <input class="input_normal" type="text" placeholder="name@mail.com">
+
+                        <button class="btn btn_green-to-white" type="submit">
+                            Subscribe
+                        </button>
+                    </form>
+
+                    <small>By clicking "Subscribe," you agree to receive promotional emails from Woodland Mills.</small>
+                </div>
+
+                <div class="social-media">
+                    <p>Social media</p>
+
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="la la-youtube"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="la la-vk"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="la la-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 copyright">
+                Copyright, 2022. Woodland Mills Inc. All Rights Reserved. Bushlander™, Woodlander™, Multilander™,
+                RapidChange™ and Discover The Woodland™ are trademarks owned by Woodland Mills Inc.
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"
+></script>
+<script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"
+></script>
+<script src="/scripts/slick.min.js" type="text/javascript"></script>
+<script src="/scripts/fslightbox.js"></script>
+<script src="/scripts/app.min.js"></script>
+</body>
+</html>
